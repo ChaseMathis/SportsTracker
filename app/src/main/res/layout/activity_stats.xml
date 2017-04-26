@@ -1,0 +1,671 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:text="Players for your Team"
+        android:layout_width="211dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/Title"
+        android:textSize = "22sp"
+        android:layout_weight="0.03"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Player"
+        android:layout_width="134dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/PlayerLabel"
+        android:layout_below="@+id/Title"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="17dp" />
+
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/Player1"
+        android:layout_weight="0.03"
+        android:layout_below="@+id/PlayerLabel"
+        android:layout_alignParentStart="true"
+        android:textSize = "18sp"
+        />
+
+    <TextView
+        android:text="          "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/hr_amount"
+        android:layout_below="@+id/hr_TextView"
+        android:layout_alignStart="@+id/hr_TextView" />
+
+    <TextView
+        android:text="          "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/k_amount"
+        android:layout_below="@+id/K_TextView"
+        android:layout_alignStart="@+id/K_TextView"
+        android:textSize = "18sp"
+        />
+
+    <TextView
+        android:text="                 "
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/Player2"
+        android:layout_below="@+id/Player1"
+        android:layout_alignParentStart="true"
+        android:textSize = "18sp"
+        />
+
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/Player5"
+        android:layout_below="@+id/Player4"
+        android:layout_alignParentStart="true"
+        android:textSize = "18sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView11"
+        android:layout_below="@+id/Player3"
+        android:layout_alignParentStart="true"
+        android:textSize = "18sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView10"
+        android:layout_below="@+id/Player3"
+        android:layout_alignParentStart="true"
+        android:textSize = "18sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView9"
+        android:layout_below="@+id/Player3"
+        android:layout_alignParentStart="true"
+        android:textSize = "18sp"
+        />
+
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/Player4"
+        android:layout_below="@+id/Player3"
+        android:layout_alignParentStart="true"
+        android:textSize = "18sp"
+        />
+
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/Player3"
+        android:layout_below="@+id/Player2"
+        android:layout_alignParentStart="true"
+        android:textSize = "18sp"
+        />
+
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/Player6"
+        android:layout_below="@+id/Player5"
+        android:layout_alignParentStart="true"
+        android:textSize = "18sp"
+        />
+
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Player6"
+        android:layout_alignParentStart="true"
+        android:id="@+id/Player7"
+        android:textSize = "18sp"
+        />
+
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Player7"
+        android:layout_alignEnd="@+id/Player7"
+        android:id="@+id/Player8"
+        android:textSize = "18sp"
+        />
+
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Player8"
+        android:layout_alignParentStart="true"
+        android:id="@+id/Player9"
+        android:textSize = "18sp"
+        />
+
+    <TextView
+        android:text="                  "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/player2average"
+        android:layout_alignBaseline="@+id/Player2"
+        android:layout_alignBottom="@+id/Player2"
+        android:layout_alignEnd="@+id/PlayerAverage"
+        android:textSize = "18sp"
+        />
+
+    <TextView
+        android:text="      "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/hr1_amount"
+        android:layout_below="@+id/hr_amount"
+        android:layout_alignEnd="@+id/hr_amount"
+        android:textSize = "18sp"
+        />
+
+    <TextView
+        android:text="      "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/strikeout2"
+        android:layout_below="@+id/k_amount"
+        android:layout_alignStart="@+id/k_amount"
+        android:layout_alignEnd="@+id/k_amount"
+        android:layout_alignBottom="@+id/hr1_amount"
+        android:textSize = "18sp"
+        />
+
+    <TextView
+        android:text="                 "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/player3average"
+        android:layout_alignBaseline="@+id/Player3"
+        android:layout_alignBottom="@+id/Player3"
+        android:layout_alignStart="@+id/PlayerAverage"
+        android:textSize = "18sp"
+        />
+
+    <TextView
+        android:text="           "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hitstwo"
+        android:id="@+id/hitsthree"
+        android:layout_alignStart="@+id/hitstwo"
+        android:layout_alignBottom="@+id/atbat3"
+        android:layout_alignEnd="@+id/hitstwo"
+        android:textSize = "18sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hr1_amount"
+        android:id="@+id/hr2_amount"
+        android:layout_alignEnd="@+id/hr1_amount"
+        android:layout_alignBottom="@+id/hitsthree"
+        android:layout_alignStart="@+id/hr1_amount"
+        android:textSize = "18sp"
+        />
+
+    <TextView
+        android:text="           "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/strikeout2"
+        android:id="@+id/strikeout3"
+        android:layout_alignStart="@+id/strikeout2"
+        android:layout_alignBottom="@+id/hr2_amount"
+        android:layout_alignEnd="@+id/strikeout2"
+        android:textSize = "18sp"
+        />
+
+    <TextView
+        android:text="            "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/player4average"
+        android:layout_alignBaseline="@+id/Player4"
+        android:layout_alignBottom="@+id/Player4"
+        android:layout_alignStart="@+id/player3average"
+        android:layout_alignEnd="@+id/player2average"
+        android:textSize = "18sp"
+        />
+
+    <TextView
+        android:text="       "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hitsthree"
+        android:id="@+id/hitsfour"
+        android:layout_alignStart="@+id/hitsthree"
+        android:layout_alignBottom="@+id/atbat4"
+        android:layout_alignEnd="@+id/hitsthree"
+        android:textSize = "18sp"
+        />
+
+    <TextView
+        android:text="         "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hr2_amount"
+        android:id="@+id/hr3_amount"
+        android:layout_alignStart="@+id/hr2_amount"
+        android:layout_alignBottom="@+id/hitsfour"
+        android:layout_alignEnd="@+id/hr2_amount"
+        android:textSize = "18sp"
+        />
+
+    <TextView
+        android:text="         "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/strikeout3"
+        android:id="@+id/strikeout4"
+        android:layout_alignStart="@+id/strikeout3"
+        android:layout_alignBottom="@+id/hr3_amount"
+        android:layout_alignEnd="@+id/strikeout3"
+        android:textSize = "18sp"
+        />
+
+    <TextView
+        android:text="         "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Player4"
+        android:layout_alignStart="@+id/player4average"
+        android:id="@+id/player5average"
+        android:layout_above="@+id/Player6"
+        android:layout_alignEnd="@+id/player4average"
+        android:textSize = "18sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/player4average"
+        android:id="@+id/atbat5"
+        android:layout_alignStart="@+id/atbat4"
+        android:layout_alignBottom="@+id/player5average"
+        android:layout_alignEnd="@+id/atbat4"
+        android:textSize = "18sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hitsfour"
+        android:id="@+id/hitsfive"
+        android:layout_alignStart="@+id/hitsfour"
+        android:layout_alignBottom="@+id/atbat5"
+        android:layout_alignEnd="@+id/hitsfour"
+        android:textSize = "18sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hr3_amount"
+        android:id="@+id/hr4_amount"
+        android:layout_alignStart="@+id/hr3_amount"
+        android:layout_alignBottom="@+id/hitsfive"
+        android:layout_alignEnd="@+id/hr3_amount"
+        android:textSize = "18sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/strikeout4"
+        android:layout_alignStart="@+id/strikeout4"
+        android:id="@+id/strikeout5"
+        android:layout_alignBottom="@+id/hr4_amount"
+        android:layout_alignEnd="@+id/strikeout4"
+        android:textSize = "18sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Player5"
+        android:layout_alignStart="@+id/player5average"
+        android:id="@+id/player6average"
+        android:layout_alignEnd="@+id/player5average"
+        android:layout_above="@+id/Player7"
+        android:textSize = "18sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/player7average"
+        android:layout_alignEnd="@+id/player6average"
+        android:layout_alignStart="@+id/player6average"
+        android:layout_above="@+id/Player8"
+        android:layout_below="@+id/Player6"
+        android:textSize = "18sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Player7"
+        android:id="@+id/player8average"
+        android:layout_alignStart="@+id/player6average"
+        android:layout_alignEnd="@+id/player7average"
+        android:layout_above="@+id/Player9"
+        android:textSize = "18sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Player8"
+        android:id="@+id/player9average"
+        android:layout_alignStart="@+id/player8average"
+        android:layout_alignEnd="@+id/player8average"
+        android:layout_alignBottom="@+id/Player9"
+        android:textSize = "18sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/atbat6"
+        android:layout_alignStart="@+id/atbat5"
+        android:layout_above="@+id/player7average"
+        android:layout_alignEnd="@+id/atbat5"
+        android:layout_below="@+id/atbat5"
+        android:textSize = "18sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/player6average"
+        android:id="@+id/atbat7"
+        android:layout_alignStart="@+id/atbat6"
+        android:layout_above="@+id/player8average"
+        android:layout_alignEnd="@+id/atbat6"
+        android:textSize = "18sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/player7average"
+        android:id="@+id/atbat8"
+        android:layout_alignStart="@+id/atbat7"
+        android:layout_above="@+id/player9average"
+        android:layout_alignEnd="@+id/atbat7"
+        android:textSize = "18sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/player8average"
+        android:id="@+id/atbat9"
+        android:layout_alignStart="@+id/atbat8"
+        android:layout_alignBottom="@+id/player9average"
+        android:layout_alignEnd="@+id/atbat8"
+        android:textSize = "18sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hitsfive"
+        android:id="@+id/hitssix"
+        android:layout_alignStart="@+id/hitsfive"
+        android:layout_above="@+id/atbat7"
+        android:layout_alignEnd="@+id/hitsfive"
+        android:textSize = "18sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hitssix"
+        android:id="@+id/hitsseven"
+        android:layout_alignStart="@+id/hitssix"
+        android:layout_above="@+id/atbat8"
+        android:layout_alignEnd="@+id/hitssix"
+        android:textSize = "18sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hitsseven"
+        android:id="@+id/hitseight"
+        android:layout_alignStart="@+id/hitsseven"
+        android:layout_above="@+id/atbat9"
+        android:layout_alignEnd="@+id/hitsseven"
+        android:textSize = "18sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hitseight"
+        android:id="@+id/hitsnine"
+        android:layout_alignStart="@+id/hitseight"
+        android:layout_alignBottom="@+id/atbat9"
+        android:layout_alignEnd="@+id/hitseight"
+        android:textSize = "18sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hr4_amount"
+        android:id="@+id/hr5_amount"
+        android:layout_alignStart="@+id/hr4_amount"
+        android:layout_above="@+id/hitsseven"
+        android:layout_alignEnd="@+id/hr4_amount"
+        android:textSize = "18sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hr5_amount"
+        android:id="@+id/hr6_amount"
+        android:layout_alignStart="@+id/hr5_amount"
+        android:layout_above="@+id/hitseight"
+        android:layout_alignEnd="@+id/hr5_amount"
+        android:textSize = "18sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hitsseven"
+        android:id="@+id/hr7_amount"
+        android:layout_alignStart="@+id/hr6_amount"
+        android:layout_above="@+id/hitsnine"
+        android:layout_alignEnd="@+id/hr6_amount"
+        android:textSize = "18sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hr7_amount"
+        android:id="@+id/hr8_amount"
+        android:layout_alignStart="@+id/hr7_amount"
+        android:layout_alignBottom="@+id/hitsnine"
+        android:layout_alignEnd="@+id/hr7_amount"
+        android:textSize = "18sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/strikeout5"
+        android:id="@+id/strikeout6"
+        android:layout_alignStart="@+id/strikeout5"
+        android:layout_above="@+id/hr6_amount"
+        android:layout_alignEnd="@+id/strikeout5"
+        android:textSize = "18sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/strikeout6"
+        android:id="@+id/strikeout7"
+        android:layout_alignStart="@+id/strikeout6"
+        android:layout_above="@+id/hr7_amount"
+        android:layout_alignEnd="@+id/strikeout6"
+        android:textSize = "18sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hr6_amount"
+        android:id="@+id/strikeout8"
+        android:layout_alignStart="@+id/strikeout7"
+        android:layout_above="@+id/hr8_amount"
+        android:layout_alignEnd="@+id/strikeout7"
+        android:textSize = "18sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hr7_amount"
+        android:id="@+id/strikeout9"
+        android:layout_alignStart="@+id/strikeout8"
+        android:layout_alignBottom="@+id/hr8_amount"
+        android:layout_alignEnd="@+id/strikeout8"
+        android:textSize = "18sp"
+        />
+
+    <TextView
+        android:text="AVG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Average"
+        android:textSize = "15sp"
+        android:layout_alignBaseline="@+id/PlayerLabel"
+        android:layout_alignBottom="@+id/PlayerLabel"
+        android:layout_toEndOf="@+id/PlayerLabel" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/PlayerAverage"
+        android:text="                "
+        android:textSize = "18sp"
+        android:layout_alignBaseline="@+id/Player1"
+        android:layout_alignBottom="@+id/Player1"
+        android:layout_toEndOf="@+id/Player1" />
+
+    <TextView
+        android:text="     "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/hitstwo"
+        android:textSize = "18sp"
+        android:layout_below="@+id/hr_amount"
+        android:layout_alignEnd="@+id/hits_TextView" />
+
+    <TextView
+        android:text="HR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/hr_TextView"
+        android:textSize = "15sp"
+        android:layout_alignBaseline="@+id/hits_TextView"
+        android:layout_alignBottom="@+id/hits_TextView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="43dp" />
+
+    <TextView
+        android:text="          "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/hit_amount"
+        android:layout_below="@+id/atbats_Textview"
+        android:layout_toStartOf="@+id/hr_amount"
+        android:layout_marginEnd="12dp" />
+
+    <TextView
+        android:text="H"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/hits_TextView"
+        android:textSize = "15sp"
+        android:layout_alignBaseline="@+id/Average"
+        android:layout_alignBottom="@+id/Average"
+        android:layout_alignEnd="@+id/hit_amount" />
+
+    <TextView
+        android:text="At-Bats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/atbats_Textview"
+        android:textSize = "15sp"
+        android:layout_above="@+id/atBat_amount"
+        android:layout_toEndOf="@+id/Title" />
+
+    <TextView
+        android:text="     "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/atbat2"
+        android:textSize = "18sp"
+        android:layout_above="@+id/atbat3"
+        android:layout_alignStart="@+id/atbats_Textview" />
+
+    <TextView
+        android:text="K"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/K_TextView"
+        android:textSize = "15sp"
+        android:layout_above="@+id/PlayerAverage"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="11dp" />
+
+    <TextView
+        android:text="      "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/atbat4"
+        android:textSize = "18sp"
+        android:layout_above="@+id/atbat5"
+        android:layout_alignStart="@+id/atbat2" />
+
+    <TextView
+        android:text="          "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/atbat3"
+        android:textSize = "18sp"
+        android:layout_above="@+id/atbat4"
+        android:layout_alignStart="@+id/atbat2" />
+
+    <TextView
+        android:text="          "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/atBat_amount"
+        android:textSize = "18sp"
+        android:layout_above="@+id/atbat2"
+        android:layout_alignStart="@+id/atbats_Textview" />
+
+</RelativeLayout>
